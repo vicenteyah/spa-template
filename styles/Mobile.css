@@ -1,0 +1,122 @@
+@media all and (max-width: 480px) {
+    .appbar{
+        flex-direction: column;
+        gap:10px;
+    }
+    .social{
+        gap: 20px;
+    }
+    
+    .appbar-bottom {
+        flex-flow: column;
+        align-items: flex-start;
+        gap: 5px;
+        text-align: left;
+        font-family: var(--fontBold);
+    }
+    .appbar-bottom a{
+        border-bottom:  2px dotted var(--tertiary-color);
+    }
+
+    header,section{
+        max-width: 480px;
+        margin: 0 auto;
+    }
+
+    .navigation-container{
+        width: 365px;
+        padding: 10px 10px;
+        margin: 15px 5px;
+    }
+
+    .appbar-bottom a {
+        width:320px;
+        font-size: 0.7rem;
+        height:30px;
+    }    
+    .nav-decoration{
+        max-width: 480px;
+        margin: 0 auto;
+    }
+}
+
+
+/**  Section stones **/
+@media screen and (max-width: 480px) {
+
+    .stone-conatiner{
+        max-width: 480px;
+        background-size: 480px 100px;
+    }
+    .section-title{
+        padding: 200px 20px;
+        margin: 0px 0px;
+        font-size: 0.8rem;
+        text-align: left;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .section-title h1{
+        font-size: 1.5rem;
+    }
+}
+
+/**  Section-hero-one**/
+
+@media screen and (max-width: 480px) {
+   .section-hero-one{
+        flex-direction: column-reverse;
+        max-width: 480px;
+    }
+
+    .section-hero-description {
+        text-align: center;
+    }
+    .section-hero-description p{
+        max-width: 400px;
+        padding: 20px 20px;
+    }
+}
+
+/** section hero two**/
+
+@media screen and (max-width: 480px) {
+    .section-hero-two h1{
+        text-align: center;
+    }
+    .section-hero-description-two{
+        flex-direction: column;
+    }
+    .section-text-article{
+        max-width: 400px;
+    }
+    .section-hero-description-two figure img{
+        max-width: 330px;
+    }
+}
+
+/** section hero three**/
+@media screen and (max-width: 480px) {
+    .section-hero-three{
+        flex-direction: column;
+        max-width: 480px;
+    }
+    .section-hero-description-three{
+        flex-direction: column;
+        max-width: 480px;
+    }
+    .section-hero-description-three figure img{
+        max-width: 350px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .footer-content{
+        border-bottom:none;
+    }
+    .footer-content figure img{
+        max-width: 350px;
+        margin: 20px 20px;
+    }
+}
